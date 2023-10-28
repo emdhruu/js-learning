@@ -40,3 +40,25 @@ let someNumber =45
 let stringNumber = String(someNumber)
 console.log(stringNumber);
 console.log(typeof stringNumber);
+
+// **************************** Operations ***********************************
+let value=5;
+let negValue = -value;
+console.log(negValue);
+
+console.log(2+3);
+console.log(2-2);
+console.log(2*2);
+console.log(2**3);  //for power 2^3
+console.log(2/3);
+console.log(2%3);
+
+let str1 = "hello,";
+let str2 ="dhruti!" ;
+
+let str = str1 + str2;
+console.log(str);
+
+let x= -1
+console.log(-x);
+
