@@ -61,4 +61,36 @@ console.log(str);
 
 let x= -1
 console.log(-x);
+//     - - +
+//     + + +
+//     - + -
+//     + - -
+// ************************************* Increment / Decrement Operator ********************************
+
+let counter =1;
+counter++;   //postfix
+console.log(counter);
+
+let count = 1;
+++count;   //prefix
+console.log(count);
+
+let goal = 1;
+let a = goal++;
+console.log(goal);
+
+let w= 1;
+let b = w++;
+console.log(b);
+
+let y = 1;
+let c = ++y;
+console.log(c);
+
+let sum = 1;
+console.log(2 * ++sum);
+
+let add =0;
+console.log(--add);
+
 
