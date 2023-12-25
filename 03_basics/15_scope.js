@@ -32,7 +32,7 @@ function one(){
 one(); //error : outside one() function accessing it.
 
 if(true){
-    const username ="dhruti";
+    const username ="dhruti"; 
     if(username === "dhruti"){
         const website = "youtube"
         // console.log(username + website);
