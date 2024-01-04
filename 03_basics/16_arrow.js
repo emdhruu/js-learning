@@ -8,13 +8,49 @@ const user = {
         
     }
 }
-// user.welcomeMessage();
+user.welcomeMessage();
 user.username = "sam";
-// user.welcomeMessage();
-// console.log(this);
+user.welcomeMessage();
+console.log(this);
 
 function chai() {
     let username = "dhruti"
     console.log(this.username);
 }
 chai();
+
+const value = function () {
+    let username = "Dhruti thakkar";
+    console.log(this.username);
+}
+value();
+
+const coffee = () =>{
+    let username = "dhruti";
+    console.log(this);
+    console.log(this.username);
+} 
+coffee();
+
+const addTwo= ( num1, num2) =>{
+    return num1 + num2;
+};
+
+console.log(addTwo(3,4));
+
+const subTwo = (num1, num2) => num1 - num2;
+console.log(subTwo(3,2));
+
+const mulTwo = (num1 , num2) => (num1 * num2);
+console.log(mulTwo(3,2));
+
+// return Object
+const obj= () =>({
+    username :"dhruti",
+});
+console.log(obj());
+
+const myArray = [2,5,6,7];
+myArray.forEach(
+    () => num +num
+)
