@@ -11,5 +11,20 @@ for (const greets of greatings) {
     if (greets.indexOf(' ') >= 0) {
         continue
     }
-    console.log(greets);
+    // console.log(greets);
 }
+
+//Maps 
+
+const map = new Map();
+map.set('IN', 'India');
+map.set('USA' , 'United States of America')
+map.set('Fr' , 'France')
+
+// console.log(map);
+
+//destructing in map
+for (const [key, value] of map) {
+    console.log(key , ':-', value);
+}
+
