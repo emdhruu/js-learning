@@ -90,3 +90,18 @@ form.addEventListener('submit', function (e) {
 );
 
 ```
+
+## Project 3 Solution : Digital Clock
+
+```javascript
+const clock = document.getElementById('clock');
+
+setInterval(function () {
+  let date = new Date();
+  // console.log(date.toLocaleTimeString());
+  // clock.appendChild(document.createTextNode(date.toLocaleTimeString()));
+
+  clock.innerHTML = date.toLocaleTimeString();
+}, 1000);
+
+```
