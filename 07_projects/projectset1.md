@@ -91,7 +91,7 @@ form.addEventListener('submit', function (e) {
 
 ```
 
-## Project 3 Solution : Digital Clock
+## Project 3 : Digital Clock
 
 ```javascript
 const clock = document.getElementById('clock');
